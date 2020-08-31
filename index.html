@@ -99,6 +99,101 @@
   </div>
   
   
+  <div class="container">
+    <div class="row mt-5"  style="margin-left: 10px;">
+      <div class="col-md-8">
+        <h4>Shopping Cart</h4>
+        <table class="table table-bordered" id="myTable">
+          <thead>
+            <tr>
+              <th scope="col">Image</th>
+              <th scope="col">Product Name</th>
+              <th scope="col">Model</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Unit Price</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody id="myTbody">
+            <tr class="tablePro tr1" id="tr1">
+              <td class="td1" style="vertical-align: middle"></td>
+              <td class="td2" style="vertical-align: middle"></td>
+              <td class="td3" style="vertical-align: middle"></td>
+              <td class="td4" style="vertical-align: middle">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <input type="text" id="inp1" style="width: 25px;height: 25px;" >
+                    <button type="button" class="btn1" style="width: 25px;height: 25px;background-color: black;border: hidden"><img src="img/refresh.png" style="width: 15px;height: 15px"></button>
+                    <button type="button" class="btn1_2" style="width: 25px;height: 25px;background-color: red;border: hidden"><img src="img/exit.png" style="width: 15px;height: 15px"></button>
+                </div>
+              </td>
+              <td class="td5" style="vertical-align: middle"></td>
+              <td id="td6" style="vertical-align: middle"></td>
+            </tr>
+            <tr class="tablePro tr2" id="tr2">
+              <td class="td7" style="vertical-align: middle"></td>
+              <td class="td8" style="vertical-align: middle"></td>
+              <td class="td9" style="vertical-align: middle"></td>
+              <td class="td10" style="vertical-align: middle">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <input type="text" id="inp2" style="width: 25px;height: 25px;" >
+                  <button type="button" class="btn2_1" style="width: 25px;height: 25px;background-color: black;border: hidden"><img src="img/refresh.png" style="width: 15px;height: 15px"></button>
+                  <button type="button" class="btn2_2" style="width: 25px;height: 25px;background-color: red;border: hidden"><img src="img/exit.png" style="width: 15px;height: 15px"></button>
+                </div>
+              </td>
+              <td class="td11" style="vertical-align: middle"></td>
+              <td id="td12" style="vertical-align: middle"></td>
+            </tr>
+            <tr class="tablePro tr3" id="tr3">
+              <td class="td13" style="vertical-align: middle"></td>
+              <td class="td14" style="vertical-align: middle"></td>
+              <td class="td15" style="vertical-align: middle"></td>
+              <td class="td16" style="vertical-align: middle">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <input type="text" id="inp3" style="width: 25px;height: 25px;" >
+                  <button type="button" class="btn3_1" style="width: 25px;height: 25px;background-color: black;border: hidden"><img src="img/refresh.png" style="width: 15px;height: 15px"></button>
+                  <button type="button" class="btn3_2" style="width: 25px;height: 25px;background-color: red;border: hidden"><img src="img/exit.png" style="width: 15px;height: 15px"></button>
+                </div>
+              </td>
+              <td class="td17" style="vertical-align: middle"></td>
+              <td id="td18" style="vertical-align: middle"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="col-lg-4">
+
+        </div>
+        
+        <div class="col-lg-4" style="margin-left: 490px">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td style="vertical-align: middle">Sub-Total:</td>
+                <td style="vertical-align: middle">$<span class="span1" id="sp1"></span></td>
+              </tr>
+              
+               <tr>
+                <td style="vertical-align: middle">Discount:</td>
+                <td style="vertical-align: middle">$<span class="span2" id="sp2"></span></td>
+              </tr>
+               
+                <tr>
+                <td style="vertical-align: middle">Total:</td>
+                <td style="vertical-align: middle">$<span class="span3" id="sp3"></span></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button" class="btn btn-dark" style="margin-left: 70px">Checkout</button>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <img src="img/starts.png">
+        <img src="img/person.png">
+      </div>
+      
+    </div>
+  </div>
+  
   
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/myJavaScript.js"></script>
